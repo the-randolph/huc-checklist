@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<title>Huron Library - Operational Checklists</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+<style>
+ul {
+  list-style-type: none;
+}
+</style>
+</head>
+
+<body>
+
+<div class="w3-container">
+<center>
+  <img src="Huron+library&learningservices+horiz+rgb.png"></img>
+  <h1>Operational Checklists</h1>
+  <p>Select a list in order to validate that you have completed all tasks required for your work shift.</p>
+</center>
+</div>
+
+<div class="w3-bar w3-red">
+  <button class="w3-bar-item w3-button w3-mobile" style="width:50%" onclick="openList('Close')">Close</button>
+  <button class="w3-bar-item w3-button w3-mobile" style="width:50%" onclick="openList('Open')">Open</button>
+
+</div>
+
+<div class="w3-container">
+<div class="w3-container w3-third"></div>
+<div id="Close" class="w3-container w3-third list">
+  <h2>Closing</h2>
+  <p>
+
+<form>
+        <ul>
+            <li>
+                <input type="checkbox" class="familybox cbox"/>
+                Commons
+                <ul>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Chairs
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Desk 
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Printer Area
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Check Paper Levels / Ink Levels
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        White Boards
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Study Rooms
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Lights
+		    </ul>
+                    <li>
+                    <input type="checkbox" class="cbox mainoption"/>
+                        Reading Room 
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lamps</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Chairs</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                White Boards</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Stacks
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lower Stacks</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Upper Stacks</li>
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    Study Rooms</li>
+                                </ul>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Mez
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lights</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Chairs</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Front Desk 
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Tech Cabinet Locked</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Granola Bars Count/Stock</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Kettle</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Water Carafe Emptied</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Fridges Closed</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Fireplace</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lights</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Computer Locked/Signed Out</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Accessability Switch</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Alarm Set</li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    <center><input type="reset" value="Clear"></center>
+    </form>
+<div class="w3-container w3-third"></div>
+</div>
+
+<div class="w3-container">
+<div class="w3-container w3-third"></div>
+<div id="Open" class="w3-container list w3-third" style="display:none">
+  <h2>Open</h2>
+      <p>
+<form>
+        <ul>
+            <li>
+                <input type="checkbox" class="familybox cbox"/>
+                Front Desk
+                <ul>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Alarm System Disarmed
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Service Desk Computer 
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    Alma</li>
+                                </ul>
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    Stats</li>
+                                </ul>
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    LibCas</li>
+                                </ul>
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    RFID</li>
+                                </ul>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Record Gate-Count (I -> P)
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Check Bookbin
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    Items Backdated</li>
+                                </ul>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Fireplace On
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Water Carafe Filled
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Granola Bar Restocked
+		    </ul>
+                    <li>
+                    <input type="checkbox" class="cbox mainoption"/>
+                        Reading Room 
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lights</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Chairs</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                White Boards</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Commons
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lights</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Chairs</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                White Boards</li>
+                           <li>
+                                <input type="checkbox" class="cbox"/>
+                                Study Rooms</li>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Mez
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lights</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Chairs</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <input type="checkbox" class="cbox mainoption"/>
+                        Stacks
+                        <ul class="suboption">
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Upper Stacks</li>
+                            <li>
+                                <input type="checkbox" class="cbox"/>
+                                Lower Stacks</li>
+                                <ul>
+                                    <input type="checkbox" class="cbox"/>
+                                    Study Rooms</li>
+                                </ul>
+                        </ul>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    <center><input type="reset" value="Clear"></center>
+    </form>
+      </p>
+</div>
+<div class="w3-container w3-third"></div>
+</div>
+</div>
+
+<script type="text/javascript">
+function openList(listName) {
+  var i;
+  var x = document.getElementsByClassName("list");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(listName).style.display = "block";  
+}
+
+</script>
+
+</body>
+</html>
